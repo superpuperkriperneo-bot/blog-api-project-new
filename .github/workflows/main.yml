@@ -43,4 +43,4 @@ jobs:
         DB_HOST: 'localhost'
         DB_PORT: '5432'
       run: |
-        pytest
+        unittest
