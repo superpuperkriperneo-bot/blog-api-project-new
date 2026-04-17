@@ -75,7 +75,7 @@ jobs:
         DEBUG: 'True'
         ALLOWED_HOSTS: '127.0.0.1,localhost'
         # Almasıstırıń: 'project_name.settings' ózińizdiń proyekt atıńızǵa
-        DJANGO_SETTINGS_MODULE: 'core.settings' 
+        DJANGO_SETTINGS_MODULE: 'config.settings' 
         # Django settings.py ushın kerekli ózgeriwshiler
         DB_NAME: 'test_db'
         DB_USER: 'postgres'
