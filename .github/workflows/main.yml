@@ -37,10 +37,8 @@ jobs:
       uses: actions/checkout@v4
 
     # B) Python 3.9 dı virtual kompyuterge ornatıw
-    # B) Python-dı ornatıw hám keshlew (caching)
-    - name: Set up Python
       uses: actions/setup-python@v4
-      uses: actions/setup-python@v5
+    
       with:
         python-version: '3.13'
         python-version: '3.12' # 3.12 qáwipsizirek variant
